@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'lilrobo.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'btredb',
+        'NAME': 'lilrobo',
         'USER': 'postgres',
         'PASSWORD': '1234',
         'HOST': 'localhost'
