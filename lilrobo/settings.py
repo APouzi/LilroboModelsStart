@@ -32,7 +32,9 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'pages.apps.PagesConfig',
+    'performer.apps.PerformerConfig',
     'venue.apps.VenueConfig',
+    'event.apps.EventConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
